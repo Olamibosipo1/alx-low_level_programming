@@ -5,24 +5,17 @@
  * Return: 0
  **/
 
-char main(void)
-{	char c = 'a';
+int main(void)
+{
+	char c = 'a';
 
 		while
 		(c <= 'z');
 	{
-		putchar (c);
-	}
+		putchar(c);
 		c++;
-
-	{
-		putchar('\n');
 	}
-
-
-
-
-
+	putchar('\n');
 
 return (0);
 }
