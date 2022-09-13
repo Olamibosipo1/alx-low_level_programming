@@ -1,4 +1,3 @@
-#include <main.h>
 #include <stdio.h>
 /**
  * main - Print Alphabet
@@ -10,18 +9,20 @@ char main(void)
 {	char c = 'a';
 
 		while
-		('a' <= 'z');
+		(c <= 'z');
 	{
-		putchar (a);
+		putchar (c);
 	}
-		a++;
+		c++;
 
 	{
-		putchar("\n");
+		putchar('\n');
 	}
 
 
 
 
-}
+
+
 return (0);
+}
