@@ -2,18 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes there
  * main - Last digit
- * void: No argument
  *
  * Return: zero
  **/
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
-	int lastdigit = n % 10;
 
 	srand(time(0));
 
