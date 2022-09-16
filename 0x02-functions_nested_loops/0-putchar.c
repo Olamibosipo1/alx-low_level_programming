@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 
 /**
  * main - Prints _putchar
@@ -7,17 +7,9 @@
  * Return: 0 if success
  **/
 
- int main(void)
+int main(void)
 {
-	char x[] = "_putchar";
-	int i=0;
-
-	while (x[i]!='\0');
-	{
-	_putchar(x[i]);
-	i++;
-	}
-	_putchar(10);
+	printf("_putchar\n");
 
 	return (0);
 }
