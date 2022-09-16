@@ -2,18 +2,20 @@
 
 /**
  * main- print alphabet in lowercase
- * void: print_alphabet(void);
+ * void: no arguments
  * Return : 0
  **/
 
 int main(void)
 {
-	char ch;
+	char x;
 
-	for (ch = 'a'; ch <= 'z' ; ch++)
+	for (x = 'a')
+	(x <= 'z')
+	ch++;
 	{
-	putchar(ch);
+	putchar(x);
+	}
 	putchar('\n');
 	return (0);
-	}
 }
