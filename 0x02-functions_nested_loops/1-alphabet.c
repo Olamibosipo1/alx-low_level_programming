@@ -9,14 +9,14 @@
 void print_alphabet(void);
 {
 
-	char x = 'a';
+	char x = 'a'
 
 	while
-	(x <= 'z'}
+	(x <= 'z')
 	{
-	putchar(x);
+	_putchar(x);
 	x++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
