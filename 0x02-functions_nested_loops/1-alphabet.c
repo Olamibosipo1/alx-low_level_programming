@@ -3,18 +3,19 @@
 /**
  * main- print alphabet in lowercase
  * void: void print_alphabet
- * Return : 0
+ * Return : 0 if success
  **/
 
-void print_alphabet(void); 
+void print_alphabet(void);
 {
-	char x;
 
-	for (x = 'a');
-	(x <= 'z');
-	x++;
+	char x = 'a';
+
+	while
+	(x <= 'z'}
 	{
 	putchar(x);
+	x++;
 	}
 	putchar('\n');
 	return (0);
