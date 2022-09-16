@@ -3,7 +3,7 @@
  * print_alphabet_x10 - 10 x alphabet
  * void: void print_alphabet_x10(void)
  *
- * return : 0 if success
+ * Return : 0 if success
  **/
 
 void print_alphabet_x10(void)
@@ -13,11 +13,7 @@ void print_alphabet_x10(void)
 	while
 		(x = 'a')
 		(x <= 'z');
-		 x++;
-	{
-		_putchar(x);
-	}
-
+		x++;
 	while
 		(y = '0')
 		(y <= '9');
