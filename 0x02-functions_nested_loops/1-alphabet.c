@@ -1,21 +1,19 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main- print alphabet in lowercase
  * void: print_alphabet(void);
- * Return :return i if success
+ * Return : 0
  **/
 
 int main(void)
 {
-	char i = 'a';
+	char ch;
 
-	while (i >= 'z')
-
+	for (ch = 'a'; ch <= 'z' ; ch++)
 	{
-		putchar(i);
-		i++;
-	}
+	putchar(ch);
 	putchar('\n');
-	return (i);
+	return (0);
+	}
 }
