@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main- print alphabet in lowercase
+ * print_alphabet- in lowercase
  * void: void print_alphabet
  * Return : 0 if success
  **/
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 
-	char x = 'a'
+	char x = 'a';
 
 	while
 	(x <= 'z')
@@ -18,5 +18,4 @@ void print_alphabet(void);
 	x++;
 	}
 	_putchar('\n');
-	return (0);
 }
