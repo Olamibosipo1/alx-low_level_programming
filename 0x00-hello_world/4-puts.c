@@ -1,3 +1,14 @@
-#!/bin/bash
-gcc puts ("Programming is like building a multilingual puzzle")
-0
+#include<stdio.h>
+
+/**
+ * main - Program to print
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+
+	return (0);
+}
