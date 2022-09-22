@@ -11,7 +11,7 @@ int main(void)
 {
 	char i[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, i, sizeof(i));
+	write(2, i, sizeof(i) - 1);
 	return (1);
 
 }
