@@ -1,15 +1,16 @@
 #include <stdio.h>
 /**
-* main - print tebahpla
-* @void : no parameters
-* Return = 0 if success
+* main - print lowercase alphabet in reverse form
+* @void: no parameters
 *
+* Return: 0 if success
 */
 int main(void)
-{
-	char i = 'a';
 
-	while (i <= 'z')
+{
+	char i = 'z';
+
+	while (i >= 'a')
 	{
 		putchar(i);
 		i--;
