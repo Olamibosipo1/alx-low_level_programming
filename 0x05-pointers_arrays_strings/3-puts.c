@@ -4,9 +4,10 @@
 * _puts - function that prints a string
 * @str: string printout
 *
+* Return: void
 */
 
 void _puts(char *str)
 {
-	_puts(str);
+	puts(str);
 }
