@@ -3,7 +3,7 @@
 
 /**
  * puts2 - Prints every other two characters of a string
- * @str: string 
+ * @str: string
  *
  * Return: void
  */
