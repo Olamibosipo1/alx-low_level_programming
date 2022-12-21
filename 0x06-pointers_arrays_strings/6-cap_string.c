@@ -1,4 +1,4 @@
-#include <string.h>
+#include <main.h>
 
 /**
  * cap_string - Functions that capitalizes all words of a string
